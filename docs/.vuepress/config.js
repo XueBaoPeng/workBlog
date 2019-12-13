@@ -79,6 +79,10 @@ module.exports = {
         "text": "Tag"
       }
     },
+    valineConfig: {
+      appId: 'eQTVnGKfkuJyO9ReO7d1qXBU-gzGzoHsz',// your appId
+      appKey: 'xGJQXzEhR8xhVVhaduyjkTLn', // your appKey
+    },
     "logo": "/head.png",
     "search": true,
     "searchMaxSuggestions": 10,

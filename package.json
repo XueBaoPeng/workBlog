@@ -23,6 +23,7 @@
     "url": "https://github.com/XueBaoPeng/workBlog/issues"
   },
   "devDependencies": {
+    "@vuepress/plugin-google-analytics": "^1.2.0",
     "vuepress": "1.2.0",
     "vuepress-theme-reco": "1.1.1"
   },
