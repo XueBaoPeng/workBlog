@@ -1,14 +1,30 @@
 {
-  "name": "xuebao_workBlog/",
+  "name": "workBlog",
   "version": "1.0.0",
-  "author": "reco_luan",
+  "description": "Blog demo for vuepress-theme-reco",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XueBaoPeng/workBlog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XueBaoPeng/workBlog/issues"
   },
   "devDependencies": {
     "vuepress": "1.2.0",
     "vuepress-theme-reco": "1.1.1"
   },
-  "description": "一个有趣的灵感"
+  "homepage": "https://github.com/XueBaoPeng/workBlog#readme"
 }
