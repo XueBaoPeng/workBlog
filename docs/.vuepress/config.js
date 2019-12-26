@@ -22,49 +22,24 @@ module.exports = {
   "themeConfig": {
     "nav": [
       {
-        "text": "Home",
+        "text": "首页",
         "link": "/",
         "icon": "reco-home"
       },
       {
-        "text": "TimeLine",
+        "text": "时间轴",
         "link": "/timeLine/",
         "icon": "reco-date"
       },
       {
-        "text": "Contact",
+        "text": "联系",
         "icon": "reco-message",
         "items": [
           {
-            "text": "NPM",
-            "link": "https://www.npmjs.com/~reco_luan",
-            "icon": "reco-npm"
-          },
-          {
             "text": "GitHub",
-            "link": "https://github.com/recoluan",
+            "link": "https://github.com/XueBaoPeng",
             "icon": "reco-github"
           },
-          {
-            "text": "简书",
-            "link": "https://www.jianshu.com/u/cd674a19515e",
-            "icon": "reco-jianshu"
-          },
-          {
-            "text": "CSDN",
-            "link": "https://blog.csdn.net/recoluan",
-            "icon": "reco-csdn"
-          },
-          {
-            "text": "博客圆",
-            "link": "https://www.cnblogs.com/luanhewei/",
-            "icon": "reco-bokeyuan"
-          },
-          {
-            "text": "WeChat",
-            "link": "https://mp.weixin.qq.com/s/mXFqeUTegdvPliXknAAG_A",
-            "icon": "reco-wechat"
-          }
         ]
       }
     ],
@@ -72,11 +47,11 @@ module.exports = {
     "blogConfig": {
       "category": {
         "location": 2,
-        "text": "Category"
+        "text": "文章分类"
       },
       "tag": {
         "location": 3,
-        "text": "Tag"
+        "text": "标签"
       }
     },
     valineConfig: {
@@ -89,8 +64,9 @@ module.exports = {
     "sidebar": "auto",
     "lastUpdated": "Last Updated",
     "author": "薛宝鹏",
-    "record": "xxxx",
-    "startYear": "2017"
+    "themePicker": true,
+    "record": "京ICP备19032287号-1",
+    "startYear": "2018"
   },
   "markdown": {
     "lineNumbers": true
