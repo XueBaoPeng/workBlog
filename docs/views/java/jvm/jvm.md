@@ -30,12 +30,12 @@ categories: java
 ​    Java 虚拟机在执行 Java 程序的过程中会把它管理的内存划分成若干个不同的数据区域。JDK. 1.8 和之前的版本略有不同，下面会介绍到
 
 **JDK 1.8 之前：**
-![SocksCap64.png](../../images/java-yunxinshishujuqu-Jdk1.7.png)
+![SocksCap64.png](../../Images/java-yunxinshishujuqu-Jdk1.7.png)
 
 
 **JDK 1.8 ：**
 
-![SocksCap64.png](../../images/java-yunxinshishujuqu-Jdk1.8.png)
+![SocksCap64.png](../../Images/java-yunxinshishujuqu-Jdk1.8.png)
 
 线程私有的：
 
@@ -98,11 +98,11 @@ Java 堆是垃圾收集器管理的主要区域，因此也被称作GC 堆（Gar
 2. 老生代(Old Generation)
 3. 永生代(Permanent Generation)
 
-![SocksCap64.png](../../images/jvm-duineicun-jdk7.jpg)
+![SocksCap64.png](../../Images/jvm-duineicun-jdk7.jpg)
 
 JDK 8 版本之后方法区（HotSpot 的永久代）被彻底移除了（JDK1.7 就已经开始了），取而代之是元空间，元空间使用的是直接内存。
 
-![SocksCap64.png](../../images/jvm-duineicun-jdk8.jpg)
+![SocksCap64.png](../../Images/jvm-duineicun-jdk8.jpg)
 
 上图所示的 Eden 区、两个 Survivor 区都属于新生代（为了区分，这两个 Survivor 区域按照顺序被命名为 from 和 to），中间一层属于老年代。
 

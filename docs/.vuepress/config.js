@@ -69,6 +69,19 @@ module.exports = {
     "startYear": "2018"
   },
   "markdown": {
-    "lineNumbers": true
+    // 代码显示行号
+    lineNumbers: true,
+    // markdown-it-anchor 的选项
+    anchor: { permalink: true },
+    // markdown-it-toc 的选项
+    toc: { includeLevel: [1, 2, 3] },
+    // markdown 插件
+    extendMarkdown: md => {
+      md.set({ html: true });
+      md.use(require("@iktakahiro/markdown-it-katex"));
+      md.use(require("markdown-it-mark"));
+      md.use(require("markdown-it-task-lists"));
+      md.use(require("markdown-it-vuepress-code-snippet-enhanced"));
+    }
   }
 }
