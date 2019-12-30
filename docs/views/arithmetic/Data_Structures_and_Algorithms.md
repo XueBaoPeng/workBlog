@@ -2218,6 +2218,11 @@ FI 自动补足 WA 中的空缺，不赘述
 
 值得注意的是，如果初始归并段数不是严格的 m 叉树的话，直接使用哈夫曼树将得到错误的结果，比如将上面的长度为 30 的段去掉，就只有 8 个初始归并段了，这时候应当添加一个长度为 0 的虚段，以保证该结点只出现在离根结点最远处
 
+### 10.0数据可视化网址
+  [数据结构相关可视化网址](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+
+
+
 # Reference
 
 1. [数据结构 - 浙江大学 - 中国大学 MOOC](https://www.icourse163.org/course/ZJU-93001)
